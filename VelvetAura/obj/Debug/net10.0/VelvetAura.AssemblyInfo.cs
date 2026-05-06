@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VelvetAura")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bb9255d1a6969722b6eb00867ba2cfcd169e1be")]
 [assembly: System.Reflection.AssemblyProductAttribute("VelvetAura")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VelvetAura")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
