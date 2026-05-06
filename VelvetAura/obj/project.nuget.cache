@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "SkpJ0dOKJkg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mosqu\\OneDrive\\Documentos\\VelvetAura\\VelvetAura\\VelvetAura.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mosqu\\.nuget\\packages\\castle.core\\5.2.1\\castle.core.5.2.1.nupkg.sha512",
+    "C:\\Users\\mosqu\\.nuget\\packages\\castle.windsor\\6.0.0\\castle.windsor.6.0.0.nupkg.sha512",
+    "C:\\Users\\mosqu\\.nuget\\packages\\microsoft.extensions.dependencymodel\\6.0.0\\microsoft.extensions.dependencymodel.6.0.0.nupkg.sha512",
+    "C:\\Users\\mosqu\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
