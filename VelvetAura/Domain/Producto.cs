@@ -1,4 +1,11 @@
-﻿namespace VelvetAura.Domain
+﻿
+// ============================================================
+//   PARADIGMA: PROGRAMACIÓN FUNCIONAL
+//    - Record (tipo inmutable)
+//    - Una vez creado, no se pueden modificar sus valores
+// ============================================================
+
+namespace VelvetAura.Domain
 {
     public class Producto
     {

@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using VelvetAura.Domain;
 
+// ============================================================
+//   PARADIGMA: PROGRAMACIÓN FUNCIONAL
+//    - LINQ: Where, Select, Aggregate
+//    - Función pura: CalcularTotal (no modifica el estado)
+//    - Func<> como parámetro de alto orden en FiltrarProductos
+// ============================================================
+
 namespace VelvetAura.Functional
 {
     public static class ConsultasVelvet

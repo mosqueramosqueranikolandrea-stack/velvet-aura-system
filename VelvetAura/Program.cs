@@ -4,6 +4,38 @@ using VelvetAura.Domain;
 using VelvetAura.Functional;
 using VelvetAura.Services;
 
+// ============================================================
+// 🎀 VELVET AURA - SISTEMA DE GESTIÓN DE PEDIDOS 🎀
+// ============================================================
+// 
+// PARADIGMAS IMPLEMENTADOS:
+//
+// 1. POO (Programación Orientada a Objetos)
+//    - Clases: Producto, Cliente, Pedido, Pago, PagoTarjeta, Inventario
+//    - Relaciones: Herencia (PagoTarjeta←Pago), Composición (Pedido→Productos)
+//                 Agregación (Cliente→Pedidos), Asociación (Inventario→Producto)
+//    - Interfaz: IPagoService
+//    - Polimorfismo: PagoTarjeta.ProcesarPago()
+//
+// 2. ASPECTOS (AOP) con Castle DynamicProxy
+//    - Castle Windsor como contenedor DI
+//    - LoggingInterceptor: log automático entrada/salida de métodos
+//    - Servicios resueltos por interfaz (IPagoService)
+//
+// 3. PROGRAMACIÓN FUNCIONAL
+//    - LINQ: Where (filtros), Select (proyecciones), Aggregate (sumas)
+//    - Función pura: ConsultasVelvet.CalcularTotal()
+//    - Func<> como parámetro: ConsultasVelvet.FiltrarProductos()
+//    - Record inmutable: ProductoDTO
+//
+// 4. EVENTOS (semánticamente significativos)
+//    - PedidoCreado: cuando se crea un nuevo pedido
+//    - EstadoPedidoCambiado: cuando cambia el estado del pedido
+//    - StockActualizado: cuando se modifica el inventario
+//    - EventArgs personalizados: PedidoEventArgs, StockEventArgs
+//
+// ============================================================
+
 namespace VelvetAura
 {
     class Program
