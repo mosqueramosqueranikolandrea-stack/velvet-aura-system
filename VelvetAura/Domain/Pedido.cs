@@ -3,6 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using VelvetAura.Events;
 
+// ============================================================
+//   PARADIGMA: POO (Programación Orientada a Objetos)
+//    - Clase Pedido con encapsulamiento (propiedades privadas)
+//    - Relación de composición: Pedido contiene Productos
+//    - Relación de agregación: Pedido pertenece a un Cliente
+//
+//   PARADIGMA: EVENTOS
+//    - Eventos semánticamente significativos:
+//      * PedidoCreado: ocurre cuando se genera un nuevo pedido
+//      * EstadoPedidoCambiado: ocurre cuando el pedido cambia de estado
+//    - EventArgs personalizados con información relevante
+// ============================================================
+
 namespace VelvetAura.Domain
 {
     public class Pedido
