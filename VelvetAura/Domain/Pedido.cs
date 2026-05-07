@@ -9,7 +9,7 @@ using VelvetAura.Events;
 //    - Relación de composición: Pedido contiene Productos
 //    - Relación de agregación: Pedido pertenece a un Cliente
 //
-//   PARADIGMA: EVENTOS
+//      PARADIGMA: EVENTOS
 //    - Eventos semánticamente significativos:
 //      * PedidoCreado: ocurre cuando se genera un nuevo pedido
 //      * EstadoPedidoCambiado: ocurre cuando el pedido cambia de estado

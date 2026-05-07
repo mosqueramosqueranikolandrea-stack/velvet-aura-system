@@ -3,6 +3,13 @@ using Castle.MicroKernel.Registration;
 using VelvetAura.Services;
 using VelvetAura.Aspects;
 
+// ============================================================
+//  PARADIGMA: ASPECTOS (AOP) + Inyección de Dependencias
+//    - Castle Windsor como contenedor DI
+//    - Registro de servicios por INTERFAZ (requisito del profe)
+//    - Configuración de interceptores para logging y errores
+// ============================================================
+
 namespace VelvetAura.Aspects
 {
     public static class WindsorContainerConfig

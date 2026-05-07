@@ -1,6 +1,13 @@
 ﻿using System;
 using Castle.DynamicProxy;
 
+// ============================================================
+//   PARADIGMA: ASPECTOS (AOP)
+//    - Castle DynamicProxy
+//    - Interceptor para logging automático
+//    - Registra entrada y salida de métodos (concern transversal)
+// ============================================================
+
 namespace VelvetAura.Aspects
 {
     public class LoggingInterceptor : IInterceptor
