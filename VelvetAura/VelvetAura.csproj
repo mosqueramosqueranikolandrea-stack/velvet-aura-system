@@ -12,9 +12,4 @@
     <PackageReference Include="Castle.Windsor" Version="6.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Aspects\" />
-    <Folder Include="Functional\" />
-  </ItemGroup>
-
 </Project>
