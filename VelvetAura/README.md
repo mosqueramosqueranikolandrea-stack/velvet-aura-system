@@ -75,16 +75,9 @@ El usuario interactúa mediante un **menú de consola** intuitivo y colorido.
 
 ## 🖼️ Diagrama de clases UML
 
-![Diagrama UML](diagrama-uml.drawio.png)
+![Diagrama UML]
 
 > El diagrama muestra todas las clases, relaciones (herencia, composición, agregación, asociación) y la interfaz `IPagoService`.  
 > 
 
----
-
-## 🚀 Cómo ejecutar el proyecto
-
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/mosqueramosqueranikolandrea-stack/velvet-aura-system.git
-   
+---   
